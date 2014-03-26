@@ -43,22 +43,22 @@ license that can be found in the LICENSE file.
 /* TODO(sorvell): use of !important due to inability to 
   naturally win over an :host style */
 /*@polyfill :host > polymer-ui-icon-button */
-content /content/ polymer-ui-icon-button {
+::content > polymer-ui-icon-button {
   margin: 0px 8px 0 8px !important;
 }
 
 /*@polyfill :host > polymer-ui-menu-button */
-content /content/ polymer-ui-menu-button {
+::content > polymer-ui-menu-button {
   margin: 0px 8px 0 8px !important;
 }
 
 /*@polyfill :host > polymer-ui-toolbar */
-content /content/ polymer-ui-toolbar {
+::content >  polymer-ui-toolbar {
   margin: 0;
 }
 
 /*@polyfill :host > polymer-ui-toolbar:not(.narrow-layout) */
-content /content/ polymer-ui-toolbar:not(.narrow-layout) {
+::content >  polymer-ui-toolbar:not(.narrow-layout) {
   border: 0;
   background: transparent none;
 }
